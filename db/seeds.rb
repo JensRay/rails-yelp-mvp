@@ -8,6 +8,8 @@
 
 puts "deleting database..."
 Restaurant.destroy_all
+puts "deleting reviews"
+Review.destroy_all
 
 puts "creating new restaurants..."
 
